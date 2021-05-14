@@ -111,12 +111,12 @@ public class Tree {
     private String berryNutSeedProduct;
 
     @Column(name = "fodder_product")
-    private String fodder_product;
+    private String fodderProduct;
 
     @Column(name = "palatable_human")
     private String palatableHuman;
 
-    public Tree(String acceptedSymbol, String scientificName, String commonName, String familyCommonName, String growthHabit, String activeGrowthPeriod, String fallConspicuous, String flowerColor, String flowerConspicuous, String foliageColor, String foliageTexture, String fruitConspicuous, String growthForm, String baseAgeHeight, String matureHeight, String leafRetention, String lifespan, String shapeOrientation, String toxicity, String coarseSoil, String mediumSoil, String fineSoil, String droughtTolerance, String moistureUse, String minimumPrecipitation, String maximumPrecipitation, String minimumRootDepth, String shadeTolerance, String bloomPeriod, String fruitSeedAbundance, String fruitNutPeriodBegin, String fruitNutPeriodEnd, String fruitSeedPersistence, String berryNutSeedProduct, String fodder_product, String palatableHuman) {
+    public Tree(String acceptedSymbol, String scientificName, String commonName, String familyCommonName, String growthHabit, String activeGrowthPeriod, String fallConspicuous, String flowerColor, String flowerConspicuous, String foliageColor, String foliageTexture, String fruitConspicuous, String growthForm, String baseAgeHeight, String matureHeight, String leafRetention, String lifespan, String shapeOrientation, String toxicity, String coarseSoil, String mediumSoil, String fineSoil, String droughtTolerance, String moistureUse, String minimumPrecipitation, String maximumPrecipitation, String minimumRootDepth, String shadeTolerance, String bloomPeriod, String fruitSeedAbundance, String fruitNutPeriodBegin, String fruitNutPeriodEnd, String fruitSeedPersistence, String berryNutSeedProduct, String fodderProduct, String palatableHuman) {
         this.acceptedSymbol = acceptedSymbol;
         this.scientificName = scientificName;
         this.commonName = commonName;
@@ -151,7 +151,7 @@ public class Tree {
         this.fruitNutPeriodEnd = fruitNutPeriodEnd;
         this.fruitSeedPersistence = fruitSeedPersistence;
         this.berryNutSeedProduct = berryNutSeedProduct;
-        this.fodder_product = fodder_product;
+        this.fodderProduct = fodderProduct;
         this.palatableHuman = palatableHuman;
     }
 
@@ -430,11 +430,11 @@ public class Tree {
     }
 
     public String getFodder_product() {
-        return fodder_product;
+        return fodderProduct;
     }
 
     public void setFodder_product(String fodder_product) {
-        this.fodder_product = fodder_product;
+        this.fodderProduct = fodder_product;
     }
 
     public String getPalatableHuman() {
